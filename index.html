@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assets/Logo.png" alt="Logo Alura Latam" />
+      <h1 class="header__titulo">Encriptador</h1>
+    </header>
+    <main class="encriptador">
+      <section class="encriptador__contenido">
+        <input
+          type="text"
+          placeholder="Ingrese el texto aquí"
+          class="encriptador__contenido__input"
+          id="palabraUsuario"
+          required
+        />
+        <p class="encriptador__contenido__texto">
+          Solo letras minúsculas y sin acentos
+        </p>
+        <div class="encriptador__btn">
+          <button
+            class="btn btn__primario"
+            onclick="mostrarPalabraEncriptada()"
+          >
+            Encriptar
+          </button>
+          <button
+            class="btn btn__secundario"
+            onclick="mostrarPalabraDesencriptada()"
+          >
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <div class="encriptador_resultado" id="contenedorEncriptador">
+        <img
+          src="./assets/Muñeco.png"
+          alt="Imagen Muñeco"
+          class="encriptador__resultado__img"
+          id="img"
+        />
+        <h2 class="encriptador__resultado__subtitulo" id="subtituloMensaje">
+          Ningún mensaje fue encontrado
+        </h2>
+        <p class="encriptador__resultado__texto">
+          Ingresa el texto que desees encriptar o desencriptar
+        </p>
+        <button
+          id="btnCopiar"
+          class="btn btn__secundario btn__copiar"
+          style="display: none"
+          onclick="copiarAlPortapapeles()"
+        >
+          Copiar
+        </button>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Contactame</p>
+      <div>
+        <a href="https://github.com/FedericoLazarte" target="_blank">
+          <img src="./assets/github.png" alt="" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/federico-lazarte-123930239/"
+          target="_blank"
+        >
+          <img src="./assets/linkedin.png" alt="" />
+        </a>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
