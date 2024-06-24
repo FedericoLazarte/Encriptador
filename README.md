@@ -21,6 +21,17 @@ El Encriptador es una aplicación web simple que permite encriptar y desencripta
 
 ## Capturas de Pantalla
 
+![image](https://github.com/FedericoLazarte/Encriptador/assets/97749958/73faa6ec-5f87-4215-afa4-a9c86db8170c)
+
+![image](https://github.com/FedericoLazarte/Encriptador/assets/97749958/4cfc8052-c6a1-4878-8440-4cbf8ba72db7)
+
+![image](https://github.com/FedericoLazarte/Encriptador/assets/97749958/80a17e37-bff6-4dc5-8581-61e5583068b1)
+
+![image](https://github.com/FedericoLazarte/Encriptador/assets/97749958/8a72515f-cb3b-42b9-a9d4-db96f3678f7a)
+
+
+![image](https://github.com/FedericoLazarte/Encriptador/assets/97749958/99522cc2-f179-4dfb-9c11-2020db502614)
+
 
 
 ## Tecnologías Utilizadas
