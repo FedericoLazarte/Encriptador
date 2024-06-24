@@ -1,3 +1,10 @@
+document
+  .getElementById("palabraUsuario")
+  .addEventListener("input", function (event) {
+    const input = event.target;
+    input.value = input.value.replace(/[^a-z]/g, "");
+  });
+
 function obtenerValorInput(id) {
   return document.getElementById(id).value;
 }
@@ -85,6 +92,7 @@ function agregarTextArea() {
   if (!textarea) {
     textarea = document.createElement("textarea");
     textarea.className = "encriptador__resultado__textarea";
+    textarea.style.resize = "none";
     contenedor.insertBefore(textarea, contenedor.firstChild);
   }
 }

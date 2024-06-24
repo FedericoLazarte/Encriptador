@@ -37,6 +37,7 @@ main {
 
 .header__titulo {
   font-size: 3rem;
+  font-weight: 900;
 }
 
 .encriptador {
