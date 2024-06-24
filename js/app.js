@@ -93,6 +93,7 @@ function agregarTextArea() {
     textarea = document.createElement("textarea");
     textarea.className = "encriptador__resultado__textarea";
     textarea.style.resize = "none";
+    textarea.readOnly = true;
     contenedor.insertBefore(textarea, contenedor.firstChild);
   }
 }
