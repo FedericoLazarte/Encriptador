@@ -14,7 +14,7 @@ El Encriptador es una aplicación web simple que permite encriptar y desencripta
 
 ## Cómo usar
 
-1. Ingresa el texto que deseas encriptar o desencriptar en el campo de texto.
+1. Ingresa el texto que deseas encriptar en el campo de texto.
 2. Haz clic en el botón "Encriptar" para encriptar el mensaje.
 3. Haz clic en el botón "Desencriptar" para desencriptar el mensaje.
 4. Usa el botón "Copiar" para copiar el resultado al portapapeles.
